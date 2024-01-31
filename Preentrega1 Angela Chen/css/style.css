@@ -1,0 +1,485 @@
+
+
+/* Estilos para el encabezado (h1) */
+h1 {
+    text-align: center;
+    margin: 50px 0px;
+    color: transparent; /* Hace el texto transparente */
+    background-color: #000;
+    background-image: url(../imagenes/Imagen\ legend.jpg); /* Ruta de la imagen */
+    background-repeat:no-repeat ;
+    background-size:contain; /* Ajusta el tamaño de la imagen para cubrir el área del h1 */
+    background-position: center center; /* Centra la imagen */
+    height: 80px; /* Altura de la imagen, ajusta según sea necesario */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+/* Reset de estilos para evitar estilos predeterminados del navegador */
+body, h1, h2, h4, p, a {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family:'Times New Roman', Times, serif; /* Estilos generales para el cuerpo de la página */
+    line-height: 1.6;
+}
+
+/* Estilos para la sección de menú */
+.menu {
+    background-color: #000; /* Color de fondo negro */
+    padding: 10px; /* Espaciado interno */
+    text-align: center; 
+    margin-bottom: 40px; /* Estilos para las secciones */
+}
+
+.menu a {
+    color: #fff; /* Color del texto blanco */
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+    padding: 10px 20px; /* Espaciado interno de los enlaces */
+    margin: 0px 80px; /* Margen entre los enlaces */
+    border-radius: 5px; /* Bordes redondeados */
+    display: inline-block; /* Permite centrar horizontalmente */
+    font-family:'Times New Roman', Times, serif;
+    line-height: 2;
+}
+
+.menu a:hover {
+    background-color: #fff; /* Cambia el fondo al pasar el ratón sobre los enlaces */
+    color: #333; /* Cambia el color del texto al pasar el ratón sobre los enlaces */
+}
+
+/* Estilos para las imágenes 
+img {
+    max-width: 50%;
+    height: auto;
+    border-radius: 8px; /* Bordes redondeados para las imágenes 
+}*/
+
+/* Estilos para la sección "Quienes Somos" */
+.quienesSomos {
+    text-align:center ;
+    background-color: #000;
+}
+
+.quienesSomos h2 {
+    color: #ffffff; /* Color del texto */
+    
+}
+
+.quienesSomos img {
+    max-width: 50%;
+    height: auto;
+}
+
+.quienesSomos a {
+    display:block;
+    margin-top: 6px; /* Espacio superior entre la imagen y el enlace */
+    padding: 6px; /* Espaciado interno del enlace */
+    background-color:#b3b9c1; /* Color de fondo del enlace */
+    color: #000000; /* Color del texto del enlace */
+    text-decoration: none;
+    border-radius: 5px; /* Bordes redondeados para el enlace */
+    font-size: 1.2em;
+}
+.quienesSomos .arrow {
+    font-size: 1.5em; /* Tamaño del icono, ajusta según tus necesidades */
+    margin-left: 5px; /* Ajusta el margen izquierdo según tus necesidades */
+    line-height: 1.5em; /* Ajusta la altura de línea según el tamaño del icono */
+}
+.quienesSomos a:hover {
+    background-color: #484848; /* Cambia el fondo al pasar el ratón sobre los enlaces */
+    color: #ffffff; /* Cambia el color del texto al pasar el ratón sobre los enlaces */
+}
+
+.servicios {
+    text-align:center ;
+    background-color: white;
+}
+
+.servicios h2 {
+    color: #000000; /* Color del texto */
+    margin-top: 40px;
+}
+
+.servicios img {
+    max-width: 30%;
+    height: auto;
+}
+
+.servicios a {
+    display:block;
+    margin-top: 6px; /* Espacio superior entre la imagen y el enlace */
+    padding: 6px; /* Espaciado interno del enlace */
+    background-color: #b3b9c1; /* Color de fondo del enlace */
+    color: #000000; /* Color del texto del enlace */
+    text-decoration: none;
+    border-radius: 5px; /* Bordes redondeados para el enlace */
+    font-size: 1.2em;
+}
+.servicios .arrow {
+    font-size: 1.5em; /* Tamaño del icono, ajusta según tus necesidades */
+    margin-left: 5px; /* Ajusta el margen izquierdo según tus necesidades */
+    line-height: 1.5em; /* Ajusta la altura de línea según el tamaño del icono */
+}
+.servicios a:hover {
+    background-color: #484848; /* Cambia el fondo al pasar el ratón sobre los enlaces */
+    color: #ffffff; /* Cambia el color del texto al pasar el ratón sobre los enlaces */
+}
+
+.productos {
+    text-align:center ;
+    background-color: #000;
+}
+
+.productos h2 {
+    color: #ffffff; /* Color del texto */
+    margin-top: 40px;
+}
+
+.productos img {
+    max-width: 50%;
+    height: auto;
+}
+
+.productos a {
+    display:block;
+    margin-top: 6px; /* Espacio superior entre la imagen y el enlace */
+    padding: 6px; /* Espaciado interno del enlace */
+    background-color: #b3b9c1; /* Color de fondo del enlace */
+    color: #000000; /* Color del texto del enlace */
+    text-decoration: none;
+    border-radius: 5px; /* Bordes redondeados para el enlace */
+    font-size: 1.2em;
+}
+.productos .arrow {
+    font-size: 1.5em; /* Tamaño del icono, ajusta según tus necesidades */
+    margin-left: 5px; /* Ajusta el margen izquierdo según tus necesidades */
+    line-height: 1.5em; /* Ajusta la altura de línea según el tamaño del icono */
+}
+.productos a:hover {
+    background-color: #484848; /* Cambia el fondo al pasar el ratón sobre los enlaces */
+    color: #ffffff; /* Cambia el color del texto al pasar el ratón sobre los enlaces */
+}
+
+footer {
+    background-color: #000000; /* Color de fondo del pie de página */
+    text-align: center;
+    margin-top: 20px;
+}
+footer a{
+    display:inline-block;
+    margin-top: 30px; /* Espacio superior entre la imagen y el enlace */
+    padding: 6px; /* Espaciado interno del enlace */
+    background-color: #ffffff; /* Color de fondo del enlace */
+    color: #000000; /* Color del texto del enlace */
+    text-decoration: none;
+    border-radius: 5px; /* Bordes redondeados para el enlace */
+    font-size: 1.2em;
+}
+footer a:hover {
+    background-color: #484848; /* Cambia el fondo al pasar el ratón sobre los enlaces */
+    color: #ffffff; /* Cambia el color del texto al pasar el ratón sobre los enlaces */
+}
+
+/* Estilos para las secciones dentro del pie de página */
+footer section {
+    margin-bottom: 40px;
+    flex: 5; /* Ocupa todo el espacio disponible */
+    border: 1px solid black; /* Borde para separar visualmente los sections (opcional) */
+    box-sizing: border-box; /* Asegura que el padding no afecte el tamaño total */
+}
+
+/* Estilos para los títulos (h4) dentro del pie de página */
+footer h4 {
+    color: #ffffff; /* Color del texto */
+    text-align: left; 
+    margin-left: 50px;
+    white-space: nowrap;
+}
+
+
+.container {
+    display: flex; /* Utiliza flexbox para los elementos hijos */
+    }
+
+/*----------------------------quienes somos--------------------------------*/
+
+    .quienesSomos {
+        text-align: justify;
+        padding: 40px;
+        background-color: #f8f8f8;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    
+    .content {
+        text-align: center;
+    }
+
+    .quienesSomos h2 {
+        color: black;
+        font-size: 2em;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        font-family:'Times New Roman', Times, serif;
+    }
+    
+    .flex-container {
+        display: flex;
+        flex-direction: row; /* Elementos en fila */
+        justify-content: center; /* Centra los elementos horizontalmente */
+        align-items: center; /* Centra los elementos verticalmente */
+    }
+.image-container {
+        margin-right: 20px; /* Espacio entre la imagen y el párrafo */
+    }
+
+    .quienesSomos img {
+        max-width: 100%;
+        border-radius: 8px;
+        overflow: hidden; /* Asegura que la imagen no sobresalga del contenedor */
+    }
+    .text-container {
+        max-width: 50%; /* Limita el ancho del contenedor de texto */
+    }
+    .quienesSomos p {
+        color: black;
+        line-height: 2;
+        font-size: 1.5em;
+        margin-top: 0px;
+        text-align: justify;
+        font-family:'Times New Roman', Times, serif;
+    }
+
+/*-------------------------------------servicios----------------------------*/
+
+.barberia{
+    text-align: justify;
+        padding: 20px;
+        background-color: white;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+}
+
+.barberia h3 {
+    color: black;
+    font-size: 2em;
+    margin-bottom: 10px;
+    font-family:'Times New Roman', Times, serif;
+    text-align: left;
+    }
+
+    .barberia img {
+        width: 50%; /* Use a fixed width, ensuring the image takes the full width of its container */
+        max-width: 100%; /* Ensure the image does not exceed its natural width */
+        border-radius: 5px;
+    }
+.barberia .image-container {
+        float: left; /* Establece la imagen en el lado derecho */
+        margin-right: 20px; /* Ajusta el margen izquierdo según sea necesario */
+        width: 60%; /* Adjust the width based on your layout */
+    }
+.barberia p {
+        color: black;
+        line-height: 1;
+        font-size: 1.5em;
+        margin-top: 0px;
+        text-align: justify;
+        font-family:'Times New Roman', Times, serif;
+    }
+
+/* Manicuria Styles */
+.manicuria {
+    text-align: justify;
+    background-color: black;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.manicuria h3 {
+    color: white;
+    font-size: 2em;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: right;
+    
+}
+
+.manicuria img {
+    width: 50%;
+    max-width: 100%;
+    border-radius: 5px;
+
+}
+
+.manicuria .image-container {
+    float: right;
+    margin-left: 20px;
+
+
+}
+
+.manicuria p {
+    color: white;
+    line-height: 1;
+    font-size: 1.5em;
+    margin-top: 0px;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+/*-----------------------------------------------------------------lista de productos----------------------------------------------------------*/
+.barberiayPeluqueria {
+    background-color: #b4b3b3; /* Color de fondo negro */
+    padding: 10px; /* Espaciado interno */
+    margin-right: 1100px;
+    text-align: left;
+}
+.barberiayPeluqueria h3 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.barberiayPeluqueria h4 {
+    font-size: 1em;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.barberiayPeluqueria h5 {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.salondeBelleza {
+    background-color: #b4b3b3; /* Color de fondo negro */
+    margin-top: 10px;
+    padding: 10px; /* Espaciado interno */
+    margin-right: 1100px;
+    text-align: left;
+
+}
+
+.salondeBelleza h3 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.salondeBelleza h4 {
+    font-size: 1em;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.salondeBelleza h5 {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.productoDePelo {
+    background-color: #ffffff; /* Color de fondo negro */
+    margin-top: 10px;
+    padding: 10px; /* Espaciado interno */
+    text-align: center;
+
+}
+
+.productoDePelo h3 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.productoDePelo h4 {
+    font-size: 1em;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.productoDePelo h5 {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.productoDeMano {
+    background-color: #ffffff; /* Color de fondo negro */
+    margin-top: 10px;
+    padding: 10px; /* Espaciado interno */
+    text-align: center;
+
+}
+.productoDeMano h3 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.productoDeMano h4 {
+    font-size: 1em;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.productoDeMano h5 {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.productoDeCara {
+    background-color: #ffffff; /* Color de fondo negro */
+    margin-top: 10px;
+    padding: 10px; /* Espaciado interno */
+    text-align: center;
+
+}
+.productoDeCara h3 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.productoDeCara h4 {
+    font-size: 1em;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.productoDeCara h5 {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.turno {
+    background-color: #b4b3b3;
+    margin-top: 10px;
+    padding: 10px; /* Espaciado interno */
+    text-align: center;
+}
+
+.turno label {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-family:'Times New Roman', Times, serif;
+    color: black;
+}

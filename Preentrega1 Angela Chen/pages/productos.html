@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1></h1>
+        <section class="menu">
+            <a href="../index.html">Home</a>  
+            <a href="./quienes somos.html">Quienes somos</a>
+            <a href="./servicios.html">Servicios</a>
+            <a href="./productos.html">Productos</a>
+            <a href="./lista de precios.html">Lista de precios</a>
+        </section>
+    </header>
+
+    <main>
+        <nav>
+            <section class="quienesSomos">
+                <div class="content">
+                    <h2>Productos</h2>
+                    <div class="flex-container"></div>
+                </div>
+            </section>
+
+            <section class="quienesSomos" >
+                <h2>Productos para el Cabello</h2>
+                <img class="imagenProducto" src="../imagenes/serie-expert-shampoo-1.jpg" alt="Imágenes de productos para el cabello">
+                <select class="texto" class="selectProducto" onchange="mostrarImagen()">
+                    <option value="shampoo.jpg">Shampoo</option>
+                    <option value="acondicionador.jpg">Acondicionador</option>
+                    <option value="bano_de_crema.jpg">Baño de crema</option>
+                    <option value="aceites.jpg">Aceites</option>
+                    <option value="cera.jpg">Cera</option>
+                    <option value="crema_para_peinar.jpg">Crema para peinar</option>
+                    <option value="crema_para_desenredar.jpg">Crema para desenredar</option>
+                </select>
+            </section>
+
+            <section class="quienesSomos">
+                <h2>Productos para las manos</h2>
+                    <img class="imagenProducto" src="../imagenes/cosmetica.jpg" alt="Imágenes de productos para las manos">
+                    <select class="texto" class="selectProducto" onchange="mostrarImagen()">
+                        <option> Esmalte </option>
+                        <option> Esmalte semipermanente </option>
+                        <option> Crema humectante</option>
+                        <!--selección de productos y muestra la imagen de ese producto elegido-->
+                    </select>
+            </section>
+
+            <section class="quienesSomos">
+                    <h2>Productos para la cara</h2>
+                    <img class="imagenProducto" src="../imagenes/bases-de-maquillaje.jpg" alt="Imágenes de productos para la cara">
+                    <select class="texto" class="selectProducto" onchange="mostrarImagen()">
+                        <option> Crema humectante </option>
+                        <option> Exfoliante</option>
+                        <!--selección de productos y muestra la imagen de ese producto elegido-->
+                    </select>
+            </section>
+        </nav>
+    </main>
+
+    <footer>
+        <a href="./lista de precios.html">sacá tu turno online</a>
+        <div class="container">
+            <section>
+                <h4>días hábiles Martes Miércoles Jueves Viernes Sábado Domingo, Lunes descanso (solo se atiende con
+                    turno)</h4>
+                <h4>contacto 341 456-8888 </h4>
+                <h4>ubicación rosario, Santa Fé</h4>
+            </section>
+
+            <section>
+                <h4>medios de pago </h4>
+                <h4>seguinos en</h4>
+            </section>
+        </div>
+    </footer>
+</body>
+</html>

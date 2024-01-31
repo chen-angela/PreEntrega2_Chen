@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1></h1>
+        <section class="menu">
+            <a href="../index.html">Home</a>     
+            <a href="./quienes somos.html">Quienes somos</a>
+            <a href="./servicios.html">Servicios</a>
+            <a href="./productos.html">Productos</a>
+            <a href="./lista de precios.html">Lista de precios</a>
+        </section>
+    </header>
+    
+    <main>
+        <nav>
+            <section class="quienesSomos">
+                <div class="content">
+                    <h2>Lista de Precios</h2>
+                    <div class="flex-container"></div>
+                </div>
+            </section>
+            <section class="barberiayPeluqueria">
+                <h3>BARBERÍA Y PELUQUERÍA</h3>
+                    <p>
+                        <h4>Cortes</h4>
+                        <h5>pelo corto --------------------------------------- $ 9.000</h5> 
+                        <h5>pelo largo --------------------------------------- $ 9.500</h5>
+                        <h4>Color</h4>
+                        <h5>balayage ---------------------------------------- $ 30.000</h5>
+                        <h5>color fantasía ---------------------------------- $ 45.000</h5>
+                        <h5>babylights --------------------------------------- $ 40.000</h5>
+                        <h5>retoque de raíz -------------------------------- $ 35.000</h5>
+                        <h4>Nutrición</h4>
+                        <h5>ampolla ------------------------------------------ $ 42.000</h5>
+                        <h5>botóx --------------------------------------------- $ 47.000</h5>
+                        <h5>cauterización ---------------------------------- $ 38.000</h5>
+                        <h4>Alizado</h4>
+                        <h5>lacio ---------------------------------------------- $ 28.000</h5>
+                    </p>
+            </section>
+            
+            <section class="salondeBelleza">
+                <h3>SALÓN DE BELLEZA</h3>
+                    <p>
+                        <h4>Manicuría</h4>
+                        <h5>manos ------------------------------------------- $ 35.000</h5>
+                        <h5>pies ----------------------------------------------- $ 40.000</h5>
+                        <h5>Maquillaje ---------------------------------------$ 40.000</h5>
+                    </p>
+            </section>
+
+            <section class="productoDePelo">
+                <h3>PRODUCTOS PARA EL PELO</h3>
+                <P>
+                    <h5>shampoo ------------------------------- $ 10.000</h5>
+                    <h5>acondicionador ----------------------- $ 10.000</h5>
+                    <h5>baño de crema ----------------------- $ 12.000</h5>
+                    <h5>aceites ---------------------------------- $ 15.000</h5>
+                    <h5>cera -------------------------------------- $ 15.000</h5>
+                    <h5>crema para peinar ------------------- $ 13.000</h5>
+                    <h5>crema para desenredar ------------ $ 12.000</h5>
+                </P>
+            </section>
+
+            <section class="productoDeMano">
+                <h3>PRODUCTOS PARA LAS MANOS</h3>
+                    <p>
+                        <h5>esmalte --------------------------------- $ 4.000</h5>
+                        <h5>esmalte semipermanente ---------- $ 6.000</h5>
+                        <h5>crema humectante ------------------- $ 12.000</h5>
+                    </p>   
+            </section>
+
+            <section class="productoDeCara">
+                <h3>PRODUCTOS PARA LA CARA</h3>
+                    <p>
+                        <h4>crema humectante -------------------- $ 8.000</h4>
+                        <h4>exfoliante -------------------------------- $ 8.500</h4>
+                    </p>
+            </section>
+
+            <section class="turno">
+                <form action="" method="post">
+                    <div>
+                        <label for=""> Nombre</label>
+                            <input type="text" name="nombre"/>
+                    </div>
+                    <div>
+                        <label for="">Tratamiento</label>
+                            <h4>BARBERÍA Y PELUQUERÍA</h4>
+                            <input type="checkbox" value="Corte" name="Corte pelo corto"/> <label> Corte pelo corto </label>
+                            <input type="checkbox" value="Corte" name="Corte pelo largo"/> <label> Corte pelo largo </label>
+                            <input type="checkbox" value="Color" name="Color balayage"/> <label> Color balayage </label>
+                            <input type="checkbox" value="Color" name="Color balayage"/> <label> Color fantasía </label>
+                            <input type="checkbox" value="Color" name="Color babylights"/> <label> Color babylights </label>
+                            <input type="checkbox" value="Color" name="Retoque de raíz"/> <label> Retoque de raíz </label>
+                            <input type="checkbox" value="Nutrición" name="Nutrición ampolla"/> <label> Nutrición Ampolla </label>
+                            <input type="checkbox" value="Nutrición" name="Nutrición botóx"/> <label> Nutrición botóx </label>
+                            <input type="checkbox" value="Nutrición" name="Nutrición cauterización"/> <label> Nutrición cauterización </label>
+                            <input type="checkbox" value="Alisado" name="Alisado lacio"/> <label> Alisado lacio </label>
+                            <h4>SALÓN DE BELLEZA</h4>
+                            <input type="checkbox" value="Manicuría" name="Manicuría manos"/> <label> Manicuría manos </label>
+                            <input type="checkbox" value="Manicuría" name="Manicuría pies"/> <label> Manicuría pies </label>
+                            <input type="checkbox" value="Maquillaje" name="Maquillaje"/> <label> Maquillaje </label>
+                    </div>
+                
+                    <div>
+                        <label for="">Horario</label>
+                            <input type="Horario" required name="Horario"/>
+                    </div>
+                    <div>
+                        <label for="">Compra de productos</label>
+                        <h4>PRODUCTOS PARA EL PELO</h4>
+                        <input type="checkbox" value="producto" name="shampoo"/> <label>Shampoo</label>
+                        <input type="checkbox" value="producto" name="acondicionador"/> <label> Acondicionador </label>
+                        <input type="checkbox" value="producto" name="baño de crema"/> <label> Baño de crema </label>
+                        <input type="checkbox" value="producto" name="Aceites"/> <label> Aceites </label>
+                        <input type="checkbox" value="producto" name="Cera"/> <label> Cera </label>
+                        <input type="checkbox" value="producto" name="Crema para peinar"/> <label> Crema para peinar </label>
+                        <input type="checkbox" value="producto" name="Crema para desenredar"/> <label> Crema para desenredar </label>
+                        <h4>PRODUCTOS PARA LAS MANOS</h4>
+                        <input type="checkbox" value="producto" name="Esmalte"/> <label> Esmalte </label>
+                        <input type="checkbox" value="producto" name="Esmalte semipermanente"/> <label> Esmalte semipermanente </label>
+                        <input type="checkbox" value="producto" name="Crema humectante"/> <label> Crema humectante </label>
+                        <h4>PRODUCTOS PARA LA CARA</h4>
+                        <input type="checkbox" value="producto" name="Crema humectante"/> <label> Crema humectante </label>
+                        <input type="checkbox" value="producto" name="Exfoliante"/> <label> Exfoliante </label>
+                    </div>
+                    <div>
+                        <label for="">E-mail</label>
+                        <input type="email" required name="Email"/>
+                    </div>
+                    <div>
+                        <label for="">Tell</label>
+                            <input type="Tell" required name="Tell"/>
+                    </div>
+                    </div>
+                    <div>
+                        <button type="submit"> Solicitar turno</button>
+                    </div>
+                </form>
+            </section>
+        </nav>
+    </main>
+
+    <footer>
+        <a href="./lista de precios.html">sacá tu turno online</a>
+        <div class="container">
+            <section>
+                <h4>días hábiles Martes Miércoles Jueves Viernes Sábado Domingo, Lunes descanso (solo se atiende con
+                    turno)</h4>
+                <h4>contacto 341 456-8888 </h4>
+                <h4>ubicación rosario, Santa Fé</h4>
+            </section>
+
+            <section>
+                <h4>medios de pago </h4>
+                <h4>seguinos en</h4>
+            </section>
+        </div>
+    </footer>
+</body>
+</html>
