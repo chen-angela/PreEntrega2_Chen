@@ -1,23 +1,21 @@
 
 
-/* Estilos para el encabezado (h1) */
-h1 {
-    text-align: center;
-    margin: 50px 0px;
-    color: transparent; /* Hace el texto transparente */
+/* Estilos para el encabezado */
+header{
     background-color: #000;
-    background-image: url(../imagenes/Imagen\ legend.jpg); /* Ruta de la imagen */
-    background-repeat:no-repeat ;
-    background-size:contain; /* Ajusta el tamaño de la imagen para cubrir el área del h1 */
-    background-position: center center; /* Centra la imagen */
-    height: 80px; /* Altura de la imagen, ajusta según sea necesario */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
 }
+header img {
+    margin: 0 auto; /* Ajusta el margen superior e inferior y centra horizontalmente */
+    background-color: #000; /* Establece el color de fondo negro */
+    background-position: center center;
+    display: block; /* Cambia la visualización a bloque para centrar automáticamente */
+    width: 30%; /* Ajusta el ancho de la imagen al 100% del contenedor */
+    height: auto; /* Permite que la altura se ajuste automáticamente para mantener la proporción */
+}
+
+
 /* Reset de estilos para evitar estilos predeterminados del navegador */
-body, h1, h2, h4, p, a {
+h2, h4, p, a {
     margin: 0;
     padding: 0;
     text-decoration: none;
@@ -253,6 +251,57 @@ footer h4 {
     }
 
 /*-------------------------------------servicios----------------------------*/
+.contenedor {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(8,25%);
+    margin: 1rem 1rem;
+}
+
+@media screen and (min-width: 1024px) {
+    .contenedor {
+        grid-template-columns: repeat(3, 1fr); 
+        grid-template-rows: 40% 40% 15%;
+    }
+    
+    .contenedor2{
+        display: grid;
+        margin: 1rem 1rem;
+    }
+
+    .contenedor2 .seccionBP {
+        grid-column: span 1; 
+        grid-row: span 2;
+    }   
+    
+    .contenedor2 .seccionSB {
+        grid-column: span 1; 
+    }
+    
+    .contenedor2 .seccionPP,
+    .contenedor2 .seccionPM,
+    .contenedor2 .seccionPC {
+        grid-column: span 3;
+        grid-row: span 1;
+    }
+    
+    .contenedor2 .turno {
+        grid-row: span 3; 
+    }
+}
+
+@media screen and (max-width:600px){
+    .contenedor{
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(1, 20px);
+    }
+    .text-container{
+        display: none;
+    }
+
+}
+
+
 
 .barberia{
     text-align: justify;
@@ -332,6 +381,8 @@ footer h4 {
 }
 
 /*-----------------------------------------------------------------lista de productos----------------------------------------------------------*/
+
+
 .barberiayPeluqueria {
     background-color: #b4b3b3; /* Color de fondo negro */
     padding: 10px; /* Espaciado interno */
